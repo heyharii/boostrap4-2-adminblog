@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1> Post One</h1>
+                         <h1><i class="fa fa-gear"></i> Settings</h1>
                     </div>
                 </div>
             </div>
@@ -78,10 +78,6 @@
                         <a href="index.html" class="btn btn-success btn-block"><i class="fa fa-check"></i> Save 
                         Changes</a>
                     </div>
-                    <div class="col-md-3">
-                        <a href="index.html" class="btn btn-danger btn-block"><i class="fa fa-remove"></i> Delete
-                        Post</a>
-                    </div>
                 </div>
             </div>
         </section>
@@ -93,33 +89,37 @@
                     <div class="col">
                         <div class="card">
                             <div class="card-header">
-                                <h4>Edit Post</h4>
+                                <h4>Edit Settings</h4>
                             </div>
                             <div class="card-body">
-                                 <form>
-                            <div class="form-group">
-                                <label for="title" class="form-control-label">Title</label>
-                                <input type="text" class="form-control" value="Part One">
-                            </div>
-                            <div class="form-group">
-                                <label for="category" class="form-control-label">Category</label>
-                                <select class="form-control">
-                                    <option>Web Development</option>
-                                    <option>Tech Gadget</option>
-                                    <option>Business</option>
-                                    <option>Health & Wellness</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="file">Image Upload</label>
-                                <input type="file" class="form-control-file" id="file">
-                                <small class="from text text-muted">Max 3MB</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="body">Body</label>
-                                <textarea name="editor1" class="form-control" cols="80" rows="8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam velit harum in praesentium, neque at atque nostrum recusandae temporibus deserunt fugiat voluptatem debitis sed rem earum itaque minus, pariatur vero, rerum quod eaque fugit, assumenda architecto asperiores non? Nobis quod recusandae odio, expedita sed pariatur hic quibusdam soluta quisquam aut.</textarea>
-                            </div>
-                        </form>
+                                <form>
+                                    <fieldset class="form-group">
+                                        <legend>Allow User Registration</legend>
+                                        <div class="form-check">
+                                            <label for=form-check"" class="form-check-label">
+                                                <input type="radio" class="form-check-input" value="yes" checked>Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label for=form-check"" class="form-check-label">
+                                                <input type="radio" class="form-check-input" value="no" checked>No
+                                            </label>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset class="form-group">
+                                        <legend>Home Page Format</legend>
+                                        <div class="form-check">
+                                            <label for=form-check"" class="form-check-label">
+                                                <input type="radio" class="form-check-input" value="yes" checked>Post Index
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label for=form-check"" class="form-check-label">
+                                                <input type="radio" class="form-check-input" value="no" checked> Single Page
+                                            </label>
+                                        </div>
+                                    </fieldset>
+                                </form>
                             </div>
                         </div>
                     </div>
